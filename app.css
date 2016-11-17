@@ -1,0 +1,111 @@
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.25em;
+  padding-bottom: 200px;
+  background: #fcfcfc;
+  color: #020202;
+}
+
+.wrapper {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  border-bottom: 1px solid black;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.25em;
+}
+
+.hero h1 {
+  font-size: 54px;
+  line-height: 1em;
+  text-align: center;
+  margin: 3em 0 1em 0;
+  padding: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.25em;
+}
+
+img#dave-photo {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+.side-by-side {
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+  padding-right: 1em;
+}
+
+.right {
+  float: right;
+}
+
+.side-by-side .left {
+  width: 400px;
+}
+
+.side-by-side .right {
+  width: 200px;
+}
+
+ul {
+
+}
+
+ul li {
+  margin-bottom: 1em;
+  font-size: 18px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 40px;
+}
+.contact a, .contact a:visited, .contact a:hover {
+  text-decoration: none;
+  color: #116c9a;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    margin: 1.5em 0 0.5em 0;
+    font-size: 48px;
+  }
+
+  .side-by-side .left, .side-by-side .right {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .side-by-side .right {
+    text-align: center;
+  }
+
+  .contact {
+    font-size: 28px;
+  }
+}
