@@ -14,25 +14,27 @@ body {
   padding: 0 10px;
 }
 
-h1 {
-  font-family: "Playfair Display", "Times New Roman", serif;
-  font-weight: normal;
-  letter-spacing: 0.1px;
-  border-bottom: 1px solid black;
-}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.25em;
 }
 
 .hero h1 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  border-bottom: 1px solid black;
   font-size: 54px;
-  line-height: 1em;
+  line-height: 1.25em;
   text-align: center;
   margin: 3em 0 1em 0;
   padding: 0;
+}
+
+.hero h1 a, .hero h1 a:visited, .hero h1 a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .hero p {
@@ -82,6 +84,7 @@ ul li {
 .contact {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 2em;
 }
 .contact a, .contact a:visited, .contact a:hover {
   text-decoration: none;
